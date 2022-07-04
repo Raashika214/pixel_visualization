@@ -16,7 +16,7 @@ import unittest
 
 from qgis.PyQt.QtGui import QDialogButtonBox, QDialog
 
-from pixel_visualization_dialog import pixelVisualizationDialog
+from pixel_visualization.pixel_visualization_dialog import pixelVisualizationDialog
 
 from utilities import get_qgis_app
 QGIS_APP = get_qgis_app()
